@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Himilo Booking",
+    "slug": "himiloBooking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#272560"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.himilo.booking",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.himilo.booking",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#272560"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8e528b0d-f8f6-47ab-9637-7a018b000c07"
+      }
+    }
+  }
+}

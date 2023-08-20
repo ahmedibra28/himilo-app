@@ -1,0 +1,37 @@
+{
+  "name": "Himilo Booking",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-community/netinfo": "9.3.7",
+    "expo": "^48.0.17",
+    "expo-status-bar": "~1.4.2",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-loading-spinner-overlay": "^3.0.1",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-web": "~0.18.9",
+    "react-native-webview": "11.26.0",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@types/react": "~18.0.14",
+    "@types/react-native": "~0.70.6",
+    "typescript": "^4.6.3"
+  },
+  "overrides": {
+    "@expo/config-plugins": "~6.0.0",
+    "@expo/prebuild-config": "~6.0.0"
+  },
+  "private": true
+}
